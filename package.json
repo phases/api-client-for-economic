@@ -1,0 +1,45 @@
+{
+  "name": "@phasesdk/api-client-for-economic",
+  "version": "1.0.0",
+  "description": "e-conomic REST API Library for Node.js is a powerful tool designed to simplify integration with the e-conomic platform for developers building Node.js applications. With this library, developers can effortlessly leverage the full functionality of the e-conomic REST API, streamlining workflows related to accounting, invoicing, financial management, and more.",
+  "main": "lib/economic.js",
+  "types": "lib/economic.d.ts",
+  "scripts": {
+    "test": "jest",
+    "build": "rimraf ./lib && npm test && tsc",
+    "dev": "nodemon src/index.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "rimraf": "^6.0.1",
+    "typescript": "^5.4.5"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2"
+  },
+  "keywords": [
+    "e-conomic",
+    "api-client",
+    "economic-api",
+    "accounting",
+    "finance",
+    "economic-client",
+    "javascript",
+    "nodejs",
+    "rest-api",
+    "open-api",
+    "api-wrapper",
+    "integration",
+    "oauth2",
+    "bookkeeping",
+    "invoicing",
+    "economic-sdk",
+    "economic-integration"
+]
+}
