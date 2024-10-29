@@ -18,7 +18,7 @@ An easy-to-use JavaScript/Node.js client for interacting with the E-conomic API.
 Install via npm:
 
 ```bash
-npm install api-client-for-economic
+npm i @phasesdk/api-client-for-economic
 ```
 
 ## Getting Started
