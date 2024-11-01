@@ -26,7 +26,7 @@ npm i @phasesdk/api-client-for-economic
 Here’s a basic example demonstrating how to authenticate using OAuth2 tokens and fetch a list of accounts:
 
 ```javascript
-import { Economic } from "api-client-for-economic";
+import { Economic } from "@phasesdk/api-client-for-economic";
 
 // Define your authentication tokens
 const authToken = {
